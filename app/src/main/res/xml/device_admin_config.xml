@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- device_admin_config.xml - 设备管理员配置（可选，用于更强制控制） -->
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <!-- 限制相机使用 -->
+        <disable-camera />
+        <!-- 强制锁屏 -->
+        <force-lock />
+        <!-- 限制应用 -->
+        <limit-password />
+        <!-- 擦除数据（危险，默认不启用） -->
+        <!-- <wipe-data /> -->
+    </uses-policies>
+</device-admin>

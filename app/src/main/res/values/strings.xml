@@ -1,0 +1,117 @@
+<!-- strings.xml - 豆芽应用字符串资源 -->
+<resources>
+    <string name="app_name">豆芽 - 防沉迷助手</string>
+    <string name="app_short_name">豆芽</string>
+    
+    <!-- 无障碍服务 -->
+    <string name="accessibility_service_description">豆芽需要无障碍权限来监控应用使用情况，帮助青少年科学管理手机使用时间，防止沉迷。我们不会读取您的隐私内容，仅统计应用使用时长。</string>
+    <string name="accessibility_service_label">豆芽监控服务</string>
+    
+    <!-- 通知 -->
+    <string name="notification_channel_monitor">监控服务</string>
+    <string name="notification_channel_level1">温和提醒</string>
+    <string name="notification_channel_level2">捣蛋模式</string>
+    <string name="notification_channel_level3">紧急干预</string>
+    <string name="notification_title_monitor">豆芽正在保护你</string>
+    <string name="notification_text_monitor">监控手机使用情况，防止沉迷</string>
+    
+    <!-- 一级干预通知 -->
+    <string name="notif_level1_title">该休息一下了</string>
+    <string name="notif_level1_message">你已经使用一段时间了，站起来活动一下吧！</string>
+    <string name="notif_level1_action_ack">我知道了</string>
+    
+    <!-- 二级干预通知 -->
+    <string name="notif_level2_title">⚠️ 该休息了！</string>
+    <string name="notif_level2_message">你已经使用很长时间了，请放下手机休息一下。</string>
+    
+    <!-- 三级干预通知 -->
+    <string name="notif_level3_title">🚨 严重提醒</string>
+    <string name="notif_level3_message">你的手机使用时间已严重超标，监护人已收到通知。</string>
+    
+    <!-- 全屏干预 -->
+    <string name="intervention_title">该休息了！</string>
+    <string name="intervention_message">你今天已经使用手机很长时间了。
+
+为了你的健康，建议：
+1. 站起来活动一下
+2. 看看远处的绿色植物
+3. 做几个深呼吸
+
+监护人已收到通知。</string>
+    <string name="intervention_button_ack">我知道了，这就休息</string>
+    <string name="intervention_button_snooze">5分钟后再提醒</string>
+    
+    <!-- 设置页面 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_category_monitor">监控设置</string>
+    <string name="settings_category_intervention">干预设置</string>
+    <string name="settings_category_guardian">监护人设置</string>
+    <string name="settings_category_subscription">订阅管理</string>
+    
+    <string name="setting_enable_monitor">启用监控</string>
+    <string name="setting_enable_monitor_desc">后台监控应用使用情况</string>
+    
+    <string name="setting_level1_threshold">一级干预阈值（分钟）</string>
+    <string name="setting_level2_threshold">二级干预阈值（分钟）</string>
+    <string name="setting_level3_threshold">三级干预阈值（分钟）</string>
+    
+    <string name="setting_guardian_phone">监护人手机号</string>
+    <string name="setting_guardian_email">监护人邮箱</string>
+    <string name="setting_guardian_name">监护人称呼</string>
+    
+    <string name="setting_enable_sms">启用短信通知</string>
+    <string name="setting_enable_email">启用邮件通知</string>
+    <string name="setting_daily_report">每日报告</string>
+    <string name="setting_weekly_report">每周报告</string>
+    
+    <!-- 主界面 -->
+    <string name="main_today_usage">今日使用</string>
+    <string name="main_addiction_score">沉迷指数</string>
+    <string name="main_app_ranking">应用排行</string>
+    <string name="main_intervention_log">干预记录</string>
+    <string name="main_settings">设置</string>
+    
+    <!-- 订阅 -->
+    <string name="subscription_free">免费版</string>
+    <string name="subscription_basic">基础版</string>
+    <string name="subscription_premium">高级版</string>
+    <string name="subscription_family">家庭版</string>
+    
+    <string name="subscription_free_features">✓ 基础监控
+✓ 一级干预（通知提醒）</string>
+    <string name="subscription_basic_features">✓ 免费版全部功能
+✓ 二级干预（捣蛋模式）
+✓ 每周使用报告</string>
+    <string name="subscription_premium_features">✓ 基础版全部功能
+✓ 三级干预（监护人介入）
+✓ 实时同步
+✓ 家长端Web界面</string>
+    <string name="subscription_family_features">✓ 高级版全部功能
+✓ 多设备管理
+✓ 多个孩子管理
+✓ 家庭共享</string>
+    
+    <!-- 权限说明 -->
+    <string name="permission_usage_stats_title">需要使用情况访问权限</string>
+    <string name="permission_usage_stats_desc">豆芽需要此权限来统计应用使用时长。请在设置中开启。</string>
+    <string name="permission_accessibility_title">需要无障碍权限</string>
+    <string name="permission_accessibility_desc">豆芽需要此权限来检测应用切换。请在设置中开启"豆芽监控服务"。</string>
+    <string name="permission_overlay_title">需要悬浮窗权限</string>
+    <string name="permission_overlay_desc">豆芽需要此权限来显示干预提醒界面。</string>
+    <string name="permission_sms_title">需要短信权限</string>
+    <string name="permission_sms_desc">豆芽需要此权限来通知监护人。</string>
+    
+    <!-- 通用 -->
+    <string name="button_confirm">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_go_settings">去设置</string>
+    <string name="button_later">稍后</string>
+    <string name="button_enable">开启</string>
+    
+    <string name="time_minutes">%d分钟</string>
+    <string name="time_hours_minutes">%d小时%d分钟</string>
+    <string name="score_low">健康</string>
+    <string name="score_medium">注意</string>
+    <string name="score_high">警告</string>
+    <string name="score_critical">严重</string>
+</resources>

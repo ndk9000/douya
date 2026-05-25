@@ -1,0 +1,12 @@
+{
+  "name": "豆芽 - 青少年手机防沉迷",
+  "short_name": "豆芽",
+  "package": "com.douya.antidigitaladdiction",
+  "version": "1.0.0",
+  "description": "帮助青少年科学管理手机使用，防止沉迷",
+  "platform": "Android",
+  "distribution": "侧载APK",
+  "data_policy": "纯本地存储，不上传任何数据",
+  "monetization": "订阅制（基础免费+高级付费）",
+  "target_users": "12-18岁青少年及其监护人"
+}
